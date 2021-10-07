@@ -1,0 +1,139 @@
+body{
+    background: #4188D2;
+    font-family: serif;
+    color: #FF9900;
+}
+table{
+    padding: 1%;
+    width: 100%;
+}
+
+thead th{
+    font-size: 1.3em;
+}
+thead th::first-letter{
+    color:#062270;
+    font-size: 1.35em;
+}
+thead{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: #133CAC;
+    text-align: center;
+}
+
+.first_word{
+    font-weight: bold;
+    color: #062270;
+}
+
+.td_center{
+    text-align: center;
+}
+
+.invisible_text{
+    opacity: 0;
+}
+td{
+    padding: 0.2%;
+}
+
+#input_buttons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.tr_variables > td{
+    height: 110px;
+    vertical-align: top;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.error_value{
+    background: red;
+}
+
+.acceptable_value{
+    background: #2DD700;
+}
+
+input[type="submit"]{
+    background: #61B7CF;
+    border: #39AECF 2px solid;
+    border-radius: 8px;
+    font-size: 1.1em;
+    width: 90px;
+    color:#062270;
+    height: 40px;
+}
+
+input[type="submit"]:hover{
+    background: #39AECF;
+    border: #61B7CF 2px solid;
+    color: #FFB240;
+    font-weight: bold;
+}
+
+#error_text{
+    height: 90px;
+    text-align: left;
+    vertical-align: center;
+    width: 45%;
+    font-weight: bold;
+    -webkit-text-stroke: 0.1px #39AECF;
+}
+.tr_variables{
+    background: #26517C;
+    color: #FFB240;
+    text-align: center;
+}
+
+#request_text{
+    font-size: 1.2em;
+    background: #26517C;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#error_text_main{
+    font-size: 1.1em;
+    color:black;
+    text-align: right;
+    font-weight: bold;
+}
+
+
+#response_table{
+    border-collapse: collapse;
+    border: 2px solid red;
+}
+
+#response_table tr td, th{
+    text-align: center;
+    border:  2px solid red;
+}
+
+.response_table_value_hit_false{
+    color:red;
+}
+
+.response_table_value_hit_true{
+    color: #2DD700;
+}
+
+/*
+#response_table tr td:nth-child(1), td:nth-child(2), td:nth-child(3){
+    width: 7%;
+}
+
+
+#response_table tr th:nth-child(1), th:nth-child(3){
+    width: 7%;
+}
+*/
+
+
+
